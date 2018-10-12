@@ -1,0 +1,12 @@
+version: '2'
+services: 
+  enumivo_producer: 
+    build: ./enu
+    restart: always
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - ./data:/data
+      - ./enu/config/config.ini:/enu/config.ini
+    container_name: enumivo_producer
