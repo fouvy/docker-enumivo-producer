@@ -8,7 +8,7 @@ This docker image is for enumivo producer.
 ## Clone project
 open a bash terminal, and run following command
 ```
-git clone git@github.com:fouvy/docker-enumivo-producer.git
+git clone https://github.com/fouvy/docker-enumivo-producer.git
 ```
 change current directory to project
 ```
