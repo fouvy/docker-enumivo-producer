@@ -48,6 +48,16 @@ If your want to see pb log, run this:
 ```
 sudo docker-compose logs
 ```
+# How to upgrade?
+Change current directory to git project dir, then run following code:
+```
+./upgrade.sh
+```
+# How to claim rewards?
+Change current directory to git project dir, then run following code:
+```
+./claimRewards.sh
+```
 # Finally
 If you like my repo, your can run the following command and vote for me (williamfouvy).  Next command depends some programs: nodejs and enujs, which I have describe in the section Register producer(optional)
 ```
