@@ -6,6 +6,8 @@ services:
     ports:
       - "9000:9000"
       - "9001:9001"
+    expose:
+      - "9001"
     volumes:
       - ./data:/data
       - ./enu/config/config.ini:/enu/config.ini
